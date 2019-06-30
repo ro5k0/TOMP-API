@@ -1,4 +1,4 @@
-customer:
+    customer:
       type: object
       required:
         - id
@@ -7,11 +7,11 @@ customer:
           description: The identifier MaaS uses to identify the customer
           type: string
           example: 123456
-        firstName:
+        first-name:
           description: First name of the customer
           type: string
           example: John
-        lastName:
+        last-name:
           description: Last name of the customer
           type: string
           example: Doe
